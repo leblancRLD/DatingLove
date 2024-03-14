@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+*{
+    font-family:"Roboto Slab",serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.288),rgba(0, 0, 0, 0.233)),url('/img/couple-5338310_1920.jpg');
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+nav{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 20px;
+    
+}
+span{
+    color: red;
+
+}
+p{
+    color: white;
+    font-size: 20px;
+    padding: 1px;
+}
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: bold;
+}
+h1{
+    color: white;
+    text-align: center;
+
+}
+h1:hover{
+    color: red;
+    transition: 1.3s;
+
+}
+nav ul li:hover{
+    color: red;
+    transition: 1.3s;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+h2{
+    text-align: center;
+    color: white;
+}
+a:hover{
+    color: red;
+    transition: 1.3s;
+}
+button{
+    padding: 10px;
+    background-color: red;
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin: 1px;
+    transition: 1.3s;
+    
+
+}
+button:hover{
+    background-color: black;
+    color: red;
+    
+}
+.welcome{
+    margin-top: 5%;
+}
+.registration{
+    width: 30%;
+    border: 2px solid rgba(255, 217, 0, 0.425);
+    margin: auto;
+    text-align: center;
+    background-color: rgba(165, 42, 42, 0.418);
+    border-radius: 10px;
+    
+}
+label{
+    color: white;
+    
+    
+}
+input{
+    margin: 5px;
+}
+footer{
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    background-color: rgba(0, 0, 139, 0.068);
+    padding: 30px;
+    margin-top: 30%;
+
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    margin: 5%;
+    padding: 5px;
+    border: 1px solid burlywood;
+    background-color: rgba(255, 127, 80, 0.158);
+
+}

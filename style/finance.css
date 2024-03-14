@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+*{
+    font-family:"Roboto Slab",serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('/img/couple-5338310_1920.jpg');
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+nav{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 20px;
+    
+}
+span{
+    color: red;
+
+}
+p{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: bold;
+}
+h1{
+    text-align: center;
+
+}
+h1:hover{
+    color: red;
+    transition: 1.3s;
+
+}
+nav ul li:hover{
+    color: red;
+    transition: 1.3s;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+h2{
+    color: white;
+}
+a:hover{
+    color: red;
+    transition: 1.3s;
+}
+button{
+    padding: 20px;
+    background-color: red;
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 40px;
+    margin: 1px;
+    transition: 1.3s;
+
+}
+section{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+section article {
+    list-style-type: none;
+    display: inline-block;
+}
+
+article{
+    width: auto;
+    height: auto;
+    border: 1px solid gold;
+}
+.columns {
+    float: left;
+    width: 33.3%;
+    padding: 8px;
+  }
+  
+  .price {
+    list-style-type: none;
+    border: 1px solid #eee;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  
+  .price:hover {
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+  }
+  
+
+  .price .header {
+    background-color: white;
+    color: black;
+    font-size: 25px;
+  }
+  
+  .price li {
+    border-bottom: 1px solid #eee;
+    padding: 20px;
+    text-align: center;
+    background-color: white;
+    color: black;
+  }
+  
+
+  .price .grey {
+    background-color: #eee;
+    font-size: 20px;
+    background-color: white;
+    color: black;
+  }
+  
+  .button {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  main section article{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+    font: bold;
+    color: white;
+    text-align: center;
+    margin: auto;
+    
+
+}
+section{
+    background-color: cyan;
+    width: 450px;
+    height: auto;
+    float: left;
+    margin-left: 30px;
+    padding: -0px 15px;
+}
+article{
+    background-color: darkcyan;
+    width: 250px;
+    height: 250px;
+    
+}
+.amico-op{
+    background-color: brown;
+    width: auto;
+    height: auto;
+}
+img{
+    width: 150px;
+    height: 150px;
+}
+img:hover{
+    color: chartreuse;
+}
+.bottone{
+    background-color: cadetblue;
+    margin-top: 30px;
+    font-weight: bolder;
+}
+.bottone:hover{
+    background-color: red;
+    color: black;
+}
+footer{
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    background-color: rgba(0, 0, 139, 0.212);
+    padding: 30px;
+    margin-top: 30%;
+
+}
